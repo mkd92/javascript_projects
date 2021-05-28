@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="./node_modules/tailwindcss/dist/tailwind.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="bg-gray-800">
+      <div class="relative flex items-center justify-between h-16">
+        <h4 class="text-white mx-4 text-lg font-medium">Color Flipper</h4>
+        <div class="nav-links mx-4">
+          <a href="index.html" class="text-white bg-gray-900 px-3 py-2 rounded-md text-sm font-medium">Simple</a>
+
+          <a href="hex.html" class="text-white bg-gray-900 px-3 py-2 rounded-md text-sm font-medium">Hex</a>
+        </div>
+      </div>
+    </nav>
+    <main class="h-screen relative flex flex-col justify-center items-center ">
+        <div class="flex h-24 rounded-lg container bg-gray-800 justify-center items-center ">
+            <div class="text-white text-xl font-medium flex flex-col items-center">
+                Background Color:
+                <span id="color" class="text-blue-400 text-2xl">
+                    #f1f5f8
+                </span>
+            </div>
+        </div>
+        <button id="btn" class="bg-transperant hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transperant rounded my-4">
+            Click me
+        </button>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
