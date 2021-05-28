@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="./node_modules/tailwindcss/dist/tailwind.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="bg-gray-800 h-14 flex justify-center items-center">
+      <div class="text-white font-semibold text-2xl">Counter</div>
+    </nav>
+    <main class="main h-full">
+        <div class="count" id="count">0</div>
+        <div class="btns">
+            <button class="dec-btn" id="dec">Decrement</button>
+            <button class="res-btn" id="res">Reset</button>
+            <button class="inc-btn" id="inc">Increment</button>
+        </div>
+
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

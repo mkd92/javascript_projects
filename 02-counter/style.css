@@ -1,0 +1,49 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.count{
+    font-weight: 500;
+    font-size: 8rem;
+}
+
+.dec-btn, .inc-btn{
+    background-color: #fff;
+}
+
+.dec-btn:hover, .inc-btn:hover{
+    background-color:rgba(31, 41, 55);
+    color: #fff;
+}
+
+.dec-btn, .res-btn , .inc-btn{
+    transition: background 1s;
+    height:3rem;
+    width: 10rem;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border: 2px;
+    border-style: solid;
+    border-radius: .5rem;
+    border-color: rgba(31,41,55);
+}
+
+.res-btn{
+    background-color: rgba(31, 41, 55);
+    color: #ffffff;
+}
+
+.res-btn:hover{
+    background-color: #fff;
+    color: rgba(31, 41, 55);
+}
